@@ -7,12 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mary Cosméticos</title>
     <meta name="description"
-        content="Mary Cosméticos: os melhores produtos de beleza e cuidados pessoais. Compre com segurança e qualidade.">
+        content="Mary Cosméticos: os melhores produtos de beleza e cuidados pessoais. Compre com qualidade.">
     <meta name="keywords" content="Mary Cosméticos, produtos de beleza, cuidados pessoais, maquiagem, skincare">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <!-- style -->
     <link rel="stylesheet" href="../css/style.css">
 
+    <style>
+    .home {
+        margin: auto;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(../img/banner/back-01.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 
+    @media (max-width: 768px) {
+        .home {
+            background-position: left;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 450px) {
+
+        .home {
+            background-position: left;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+    </style>
+
+    <!-- style end -->
 </head>
 
 <body>
@@ -30,7 +61,7 @@
         <nav class="navbar">
             <a href="#home">Inicio</a>
             <a href="#menu">Em Alta</a>
-            <a href="/pages/products.html">Produtos</a>
+            <a href="../pages/products.php">Produtos</a>
             <a href="#about">Sobre</a>
             <a href="#review">Avaliações</a>
             <a href="#contact">Contato</a>
@@ -344,36 +375,7 @@
 
     <!-- footer section starts -->
 
-    <footer>
-        <section class="footer">
-
-            <div class="share">
-                <a href="#" target="_blank" class="fab fa-instagram"></a>
-                <a href="#" target="_blank" class="fab fa-tiktok"></a>
-                <a href="#" target="_blank" class="fab fa-linkedin"></a>
-            </div>
-
-            <div class="links">
-                <a href="#home">Inicio</a>
-                <a href="#about">Sobre</a>
-                <a href="#menu">Em Alta</a>
-                <a href="#products">Produtos</a>
-                <a href="#review">Avaliações</a>
-                <a href="#contact">Contato</a>
-            </div>
-
-            <div class="credit"> &copy; Copyright 2025 Mary Cosméticos | Todos os direitos reservados! </div>
-
-            <div class="credit">Desenvolvido por <span>Paulo Santos</span> | Desenvolvedor Web </div>
-
-
-
-        </section>
-    </footer>
-
-
-
-
+    <?php include_once '../partials/footer.php' ?>
 
     <!-- footer section end -->
 
