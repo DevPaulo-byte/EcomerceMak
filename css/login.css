@@ -16,7 +16,7 @@
 /* ===== BODY - BACKGROUND IMAGE ===== */
 
 body {
-  background-image: url(/img/banner/login-register-bg.png);
+  background-image: url(../img/banner/login-register-bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

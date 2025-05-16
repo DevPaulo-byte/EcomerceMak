@@ -1,13 +1,35 @@
+<?php
+
+include_once '../config/config.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="../css/login.css">
     <title>Login</title>
+    <!-- style -->
+    <link rel="stylesheet" href="../css/login.css">
+
+    <style>
+    body {
+        background-image: url(../img/banner/login-register-bg.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    </style>
+
+
+    <!-- style end -->
+
 </head>
 
 <body>
@@ -63,7 +85,7 @@
 
     </div>
 
- <script src="../js/login.js"></script>
+    <script src="../js/login.js"></script>
 </body>
 
 </html>
