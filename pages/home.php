@@ -15,37 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 
     <!-- style -->
-    <link rel="stylesheet" href="../css/style.css">
-
-    <style>
-    .home {
-        margin: auto;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        background: url(../img/banner/back-01.png) no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-
-    @media (max-width: 768px) {
-        .home {
-            background-position: left;
-            justify-content: center;
-            text-align: center;
-        }
-    }
-
-    @media (max-width: 450px) {
-
-        .home {
-            background-position: left;
-            justify-content: center;
-            text-align: center;
-        }
-    }
-    </style>
-
+    <link rel="stylesheet" href="../css/style.css?v=<?php echo time(); ?>">
     <!-- style end -->
 </head>
 

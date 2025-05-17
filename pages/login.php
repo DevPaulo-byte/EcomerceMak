@@ -15,19 +15,7 @@ include_once '../config/config.php';
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Login</title>
     <!-- style -->
-    <link rel="stylesheet" href="../css/login.css">
-
-    <style>
-    body {
-        background-image: url(../img/banner/login-register-bg.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    </style>
-
-
+    <link rel="stylesheet" href="../css/login.css?v=<?php echo time(); ?>">
     <!-- style end -->
 
 </head>

@@ -233,9 +233,9 @@ header .cart-items-container .btn {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(../img/banner/back-01.png) no-repeat;
-  background-size: cover;
+  background: url("../img/banner/back-01.png") no-repeat center center;
   background-position: center;
+  background-size: cover;
 }
 
 .home .content {

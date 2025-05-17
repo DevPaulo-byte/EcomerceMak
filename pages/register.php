@@ -14,17 +14,7 @@ include_once '../config/config.php';
     <title>Registrar</title>
 
     <!-- style -->
-    <link rel="stylesheet" href="../css/register.css">
-
-    <style>
-    body {
-        background-image: url(../img/banner/login-register-bg.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-    </style>
+    <link rel="stylesheet" href="../css/register.css?v=<?php echo time(); ?>">
     <!-- style end -->
 
 </head>
