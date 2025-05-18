@@ -312,7 +312,9 @@ header .cart-items-container .btn {
 
 .menu .box-container .box img {
   height: 12rem;
-  border-radius: 45%;
+  border-radius: 50%;
+  object-position: center;
+
 }
 
 .menu .box-container .box h3 {
