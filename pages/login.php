@@ -63,7 +63,7 @@ include_once '../config/config.php';
                 </div>
 
                 <div class="register">
-                    <span>Não Tem Uma Conta? <a href="../pages/register.html">Registrar</a></span>
+                    <span>Não Tem Uma Conta? <a href="../pages/register.php">Registrar</a></span>
                 </div>
 
             </form>

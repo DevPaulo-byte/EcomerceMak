@@ -17,8 +17,10 @@
     <div class="icons">
         <div class="fas fa-search" id="search-btn"></div>
         <div class="fa-solid fa-bag-shopping" id="cart-btn"></div>
-        <div class="fa fa-user-circle" id="user"></div>
-        <div class="fas fa-bars" id="menu-btn"></div>
+        <a href="../pages/profile.php">
+            <div class="fa fa-user-circle" id="user"></div>
+        </a>
+        <div class=" fas fa-bars" id="menu-btn"></div>
     </div>
 
     <div class="search-form">

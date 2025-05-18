@@ -95,7 +95,7 @@ include_once '../config/config.php';
             </div>
 
             <div class="register">
-                <span>Já tem uma conta? <a href="../pages/login.html">Login</a></span>
+                <span>Já tem uma conta? <a href="../pages/login.php">Login</a></span>
             </div>
 
             </form>
