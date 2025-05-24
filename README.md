@@ -1,6 +1,5 @@
 # EcomerceMak
 
-![Ecomercek
 
 ## Descrição
 
