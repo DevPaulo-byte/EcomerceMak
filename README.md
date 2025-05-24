@@ -1,6 +1,6 @@
 # EcomerceMak
 
-![EcomerceMak Screenshot](https://github.com/DevPaulo-byte/EcomerceMak/raw/main/assets/screenshot.png)
+![Ecomercek
 
 ## Descrição
 
