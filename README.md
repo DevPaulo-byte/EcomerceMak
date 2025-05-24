@@ -1,65 +1,41 @@
----
+# EcomerceMak
 
-EcomerceMak
+## Descrição
+Projeto de e-commerce desenvolvido em PHP com MySQLi, focado em oferecer uma plataforma funcional para venda de produtos. Este repositório é de uso exclusivo da Mary Cosméticos e não permite clonagem ou cópia do código.
 
-Descrição
+## Funcionalidades
+- Cadastro, edição e remoção de produtos
+- Sistema de login e registro de usuários
+- Página inicial com listagem de produtos
+- Área administrativa para gerenciar o site
+- Conexão segura com banco de dados via MySQLi
 
-EcomerceMak é um projeto de plataforma de e-commerce desenvolvido com PHP e MySQLi, pensado para oferecer uma solução prática, segura e eficiente para gerenciar produtos e vendas online. Ideal para pequenas e médias empresas que desejam iniciar ou expandir suas vendas digitais com um sistema robusto e fácil de usar.
+## Estrutura do Projeto
+- `/backend` - Código PHP para backend e lógica do sistema
+- `/config` - Arquivo de conexão com o banco de dados
+- `/css` - Estilos CSS para o frontend
+- `/images` - Imagens usadas no projeto
+- `/js` - Scripts JavaScript
+- `/index.php` - Página principal
 
-Funcionalidades
+## Status do Projeto
+Projeto em desenvolvimento ativo.
 
-Cadastro, edição e exclusão de produtos pelo painel administrativo
+## Tecnologias Utilizadas
+- PHP 7.x
+- MySQLi
+- HTML5
+- CSS3
+- JavaScript
 
-Autenticação segura de usuários e controle de acesso
+## Contato
+**Autor:** Paulo Ricardo  
+**Empresa:** Mary Cosméticos  
+**Email:** tarlin776@hotmail.com  
+**LinkedIn:** [https://www.linkedin.com/in/paulo-ricardo-dos-santos-ferrari-393aa3288](https://www.linkedin.com/in/paulo-ricardo-dos-santos-ferrari-393aa3288)
 
-Exibição responsiva dos produtos para os clientes
+## Sobre a Empresa
+Mary Cosméticos é uma marca dedicada a produtos de beleza e cuidados pessoais, focada em qualidade e inovação.
 
-Gerenciamento de estoque e acompanhamento de vendas
-
-Integração simples com banco de dados MySQL usando MySQLi
-
-Frontend integrado em PHP com HTML e CSS para layout limpo e responsivo
-
-
-Estrutura do Projeto
-
-/backend/         # Código PHP do backend e lógica do sistema  
-/config/          # Configurações e conexão com banco de dados (MySQLi)  
-/assets/          # Imagens, arquivos CSS e scripts frontend  
-/public/          # Arquivos públicos para acesso via navegador (ex: index.php)
-
-Status do Projeto
-
-O projeto está em fase de desenvolvimento contínuo. Funcionalidades essenciais já estão implementadas, porém melhorias, correções e novas funcionalidades serão adicionadas gradualmente.
-
-Tecnologias Utilizadas
-
-PHP 7.x
-
-MySQLi para conexão com banco de dados
-
-HTML5 e CSS3 para interface e responsividade
-
-XAMPP para ambiente de desenvolvimento local (Apache + MySQL)
-
-
-Sobre a Empresa
-
-Mary Cosméticos é uma marca dedicada a cosméticos de alta qualidade, com foco em inovação, cuidado ao cliente e soluções práticas para o mercado de beleza.
-
-Contato
-
-Autor: Paulo Ricardo
-Empresa: Mary Cosméticos
-Email: tarlin776@hotmail.com
-LinkedIn
-
-Licença
-
-Este projeto é proprietário e protegido.
-Não é permitida a cópia, modificação, distribuição ou comercialização deste código sem autorização expressa do autor.
-
-
----
-
-Agradecemos seu interesse no projeto EcomerceMak!
+## Licença
+Este projeto é exclusivo e não permite cópia, distribuição, modificação ou uso comercial sem autorização expressa da Mary Cosméticos.
