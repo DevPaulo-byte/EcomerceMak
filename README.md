@@ -1,48 +1,39 @@
-# EcomerceMak
-
-
-## Descrição
-
-EcomerceMak é um projeto de e-commerce desenvolvido em PHP com MySQLi, que integra o frontend HTML diretamente nos arquivos PHP. O sistema oferece funcionalidades básicas para gerenciamento de produtos, cadastro, login e perfil de usuário, além de um painel administrativo.
-
-## Tecnologias Utilizadas
-
-- PHP (MySQLi para conexão com banco de dados)
-- HTML embutido nos arquivos PHP
-- CSS
-- MySQL
-
-## Estrutura do Projeto
-
-- `backend/` - Código backend, incluindo autenticação, produtos, perfil e administração.
-- `config/db.php` - Arquivo de configuração da conexão com o banco de dados usando MySQLi.
-- `assets/` - Imagens, estilos e scripts do frontend.
-- Outros arquivos PHP com HTML embutido para as páginas do site.
+---
 
 ## Funcionalidades
 
-- Cadastro e login de usuários
-- Gerenciamento de produtos (CRUD)
-- Área administrativa restrita
-- Perfil do usuário
-
-## Observação Importante
-
-Este repositório é de **exclusividade do autor** e está configurado para ser **apenas leitura**. Não é permitido:
-
-- Clonar o repositório
-- Fazer fork
-- Modificar ou enviar pull requests
-
-O acesso é restrito para visualização e consulta, visando preservar a integridade do código como um projeto proprietário.
-
-## Contato
-
-Para mais informações, entre em contato:
-
-- Email: tarlin776@hotmail.com  
-- LinkedIn: https://www.linkedin.com/in/seu-perfil
+- Página inicial dinâmica
+- Listagem de produtos
+- Carrinho de compras (em desenvolvimento)
+- Sistema de conexão com banco de dados
+- Estrutura modular e escalável
 
 ---
 
-*Projeto mantido por DevPaulo-byte*
+## Sobre
+
+Este projeto foi desenvolvido por **Paulo Ricardo**, proprietário da **Mary Cosméticos**, com o objetivo de colocar em prática os conhecimentos em desenvolvimento web, PHP e MySQL, além de compor um portfólio profissional.
+
+---
+
+## Direitos e Licença
+
+Este repositório é de **uso exclusivo para visualização** no GitHub.  
+
+**Proibido:**
+- Copiar
+- Clonar
+- Redistribuir
+- Comercializar
+
+**Todos os direitos reservados.** Para mais detalhes, consulte o arquivo [LICENSE](./LICENSE).
+
+---
+
+## Contato
+
+**Desenvolvedor:** Paulo Ricardo  
+**Empresa:** Mary Cosméticos  
+**Email:** tarlin776@hotmail.com
+
+---
