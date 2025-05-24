@@ -34,7 +34,8 @@ O projeto está em fase de desenvolvimento contínuo. Funcionalidades essenciais
 
 ## Contato
 
-**Paulo Ricardo**  
+**Autor: Paulo Ricardo** 
+**Empresa: Mary Cosméticos**
 Email: tarlin776@hotmail.com  
 [LinkedIn](https://www.linkedin.com/in/paulo-ricardo-dos-santos-ferrari-393aa3288)
 
