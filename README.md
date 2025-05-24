@@ -1,39 +1,45 @@
----
+# EcomerceMak
+
+## Descrição
+
+Projeto de e-commerce desenvolvido com PHP e MySQLi, focado em oferecer uma plataforma simples e eficiente para gerenciamento e venda de produtos online.
 
 ## Funcionalidades
 
-- Página inicial dinâmica
-- Listagem de produtos
-- Carrinho de compras (em desenvolvimento)
-- Sistema de conexão com banco de dados
-- Estrutura modular e escalável
+- Cadastro, edição e remoção de produtos
+- Sistema de autenticação de usuários
+- Exibição dos produtos na loja
+- Área administrativa para controle do estoque e vendas
+- Layout responsivo com HTML e CSS integrados nos arquivos PHP
 
----
+## Estrutura do Projeto
 
-## Sobre
+- `/backend/` — Contém os arquivos PHP do backend, incluindo conexões, autenticação e lógica do sistema
+- `/config/` — Arquivo de configuração e conexão com banco de dados (mysqli)
+- `/assets/` — Imagens, estilos CSS e scripts front-end
+- `/public/` — Arquivos públicos acessíveis via navegador, como index.php e páginas da loja
 
-Este projeto foi desenvolvido por **Paulo Ricardo**, proprietário da **Mary Cosméticos**, com o objetivo de colocar em prática os conhecimentos em desenvolvimento web, PHP e MySQL, além de compor um portfólio profissional.
+## Status
 
----
-
-## Direitos e Licença
-
-Este repositório é de **uso exclusivo para visualização** no GitHub.  
-
-**Proibido:**
-- Copiar
-- Clonar
-- Redistribuir
-- Comercializar
-
-**Todos os direitos reservados.** Para mais detalhes, consulte o arquivo [LICENSE](./LICENSE).
-
----
+Projeto em desenvolvimento. Funcionalidades principais implementadas, mas melhorias e correções estão em andamento.
 
 ## Contato
 
-**Desenvolvedor:** Paulo Ricardo  
-**Empresa:** Mary Cosméticos  
-**Email:** tarlin776@hotmail.com
+Paulo Ricardo  
+[LinkedIn](https://www.linkedin.com/in/paulo-ricardo-dos-santos-ferrari-393aa3288)  
+Email: tarlin776@hotmail.com
 
----
+## Sobre a Empresa
+
+Mary Cosméticos — Marca focada em cosméticos de qualidade, com foco em inovação e atendimento ao cliente.
+
+## Licença
+
+Este projeto é proprietário e não pode ser copiado, comercializado, modificado ou distribuído sem autorização expressa do autor.
+
+## Tecnologias Utilizadas
+
+- PHP 7.x
+- MySQLi
+- HTML5 / CSS3
+- XAMPP (Apache + MySQL)
