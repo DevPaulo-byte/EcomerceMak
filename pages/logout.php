@@ -4,6 +4,8 @@ include_once '../config/config.php';
 
 // Remove dados de sessão específicos (se houver)
 unset($_SESSION["userLogged"]);
+unset($_SESSION["userId"]);
+unset($_SESSION["userName"]);
 
 // Destroi a sessão
 session_destroy();
