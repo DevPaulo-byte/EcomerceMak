@@ -80,7 +80,7 @@ a:hover {
   top: 90px;
   left: 50%;
   transform: translateX(-50%);
-  width: 35%;
+  width: 60%;
   text-align: center;
   color: rgb(255, 0, 0);
   font-size: 16px;
@@ -178,6 +178,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 564px) {
+
   .wrapper {
     padding: 20px;
   }
@@ -186,8 +187,32 @@ a:hover {
     padding: 7.5em 1.5em 4em 1.5em;
   }
   #error-message{
-    width: 40%;
-    font-size: 15px;
-
+    width: 80%;
+    font-size: 14px;
   }
+
+}
+
+@media only screen and (max-width: 425px){
+
+#error-message{
+    width: 60%;
+  }
+
+}
+
+@media only screen and (max-width: 375px){
+
+#error-message{
+    width: 70%;
+  }
+
+}
+
+@media only screen and (max-width: 320px){
+
+#error-message{
+    width: 80%;
+  }
+
 }

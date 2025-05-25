@@ -8,3 +8,5 @@ if ($db->connect_error) {
     echo("Connection failed: {$db->connect_error}");
     exit();
 }
+
+$db->set_charset(DB_CHARSET);
